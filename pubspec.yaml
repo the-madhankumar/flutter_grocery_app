@@ -1,0 +1,31 @@
+name: groceryapp
+description: A new Flutter project.
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0' # Specifies the minimum Dart SDK version required
+
+dependencies:
+  flutter:
+    sdk: flutter # Specifies the Flutter SDK dependency
+
+  cupertino_icons: ^1.0.2 # Dependency for Cupertino icons
+  google_fonts: ^6.2.1 # Dependency for using Google Fonts
+  provider: ^6.1.2 # Dependency for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Dependency for Flutter tests
+  flutter_lints: ^2.0.0 # Package containing recommended lints for good coding practices
+
+flutter:
+  uses-material-design: true # Indicates the use of Material Design
+
+  assets: # Specifies asset files used in the project
+    - lib/images/avocado.png # Path to the avocado image
+    - lib/images/banana.png # Path to the banana image
+    - lib/images/chicken.png # Path to the chicken image
+    - lib/images/water.png # Path to the water image
